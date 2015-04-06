@@ -1,4 +1,4 @@
 module ANN
-    export NeuralLayer,ArtificialNeuralNetwork,fit!,predict
     include("base.jl")
+    export NeuralLayer, SimpleNeuralNetwork, fit!, predict
 end
